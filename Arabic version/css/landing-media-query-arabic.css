@@ -1,0 +1,181 @@
+@media (max-width: 1200px) 
+{
+/* First section */
+    .text
+    {
+        width: 100%;
+    }
+    .download
+    {
+        /* width: 100px; */
+        height: 50px;
+    }
+    .headers
+    {
+        width: 100%;
+    }
+    .phone
+    {
+        width : 281px;
+        height: 221px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-items: center;
+    }
+/* End of First section */
+
+/* Second section */
+    /* .logo
+    {
+        margin-top: 3vh;
+        margin-right: 3vh;
+    } */
+/* End of Second section */
+
+/* third  */
+    /* .card{
+        height: 250px;
+    } */
+
+/* Fifth section */
+    .fifthSection
+    {
+        padding-top: 80vh;
+    }
+
+    .service
+    {
+        max-width: 540px;
+        height: 55vh !important;
+    }
+
+    .fifth-section-btns
+    {
+        width: 17vh;
+        margin-left: -3.5vh;
+        padding: 6px !important;
+    }
+
+/* End of Fifth section */
+
+/* Seventh section */
+    #responsive
+    {
+        font-size: 30px !important;
+    }
+/* End of Seventh section */
+}
+
+
+@media(max-width:768px){
+    .landing{
+        padding: 3vh !important;
+
+    }
+   
+}
+
+
+
+
+/* responsive navabr */
+@media (max-width: 1250px){
+    .nav-logo img{
+        margin-right: 1.5rem;
+        /* margin: 115px; */
+        /* margin-left: 6.2rem;     */
+    }
+    .links{
+        margin-left: 3.2rem;    
+    }
+    /* .nav-logo{
+        margin-left: 0 !important;
+    } */
+
+}
+@media (max-width: 945px){
+    
+    
+.navbar .links,
+.navbar .action_btn{
+    display: none;
+}
+.navbar .toggle_btn{
+    margin-left: 2.5rem;
+    display: block;
+    /* margin-right: 1.5rem; */
+    color: white;
+
+}
+.dropdown_menu{
+    
+    display: block;
+    z-index: 2;
+}
+.left-ul-logo{
+    margin-left: 0;
+}
+
+.login-btn{
+    margin-top: 0;
+    margin-right: 0;
+}
+.nav-logo{
+    margin-left: -3.5rem;
+}
+
+
+}
+@media (max-width: 768px){
+    .reverse{
+        flex-direction: column-reverse;
+    }
+    .dropdown_menu{
+        top: 4.5rem;
+        left: 2rem;
+        width: unset;
+    }
+    #image2{
+      display: none;
+    }
+    .footer-content{
+      display: flex;
+      flex-direction: column;
+    }
+    .logo{
+        width: 200px;
+        height: 230px;
+    }
+    .WhoUs-logo , .phone-image-firstSection{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+}
+
+@media(max-width:300px){
+    .read-more-btn{
+        width: fit-content;
+    }
+    .illustration{
+        width: 225px;
+        height: 225px;
+    }
+    .card{
+        width: 15rem;
+        height: 20rem;
+    }
+}
+
+@media(max-width:999px){
+    .install-app{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

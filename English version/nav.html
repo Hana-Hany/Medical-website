@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="navbar"  > 
+            
+            <div class="left-ul-logo">
+           <div class="logo"><a href="index.html"><img src="./imgs/logos/logo-Y3.png" alt="" width="45px"></a></div>
+           <ul class="links">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="products.html">New arrivals</a></li>
+               <li><a href="tips.html">Tips</a></li>
+
+               <li><a href="food.html">Food</a></li>  
+           </ul>
+        </div>
+           <div class="action-btns">
+           <a href="signup.html" class="action_btn">Sign Up</a>
+           <a href="signup.html" class="action_btn login-btn">log in</a>
+        </div>
+
+           <div class="toggle_btn">
+               <i class="fa-solid fa-bars"></i>
+
+           </div>
+
+       </div>
+       <div class="dropdown_menu ">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="products.html">New arrivals</a></li>
+               <li><a href="tips.html">Tips</a></li>
+               <li><a href="food.html">Food</a></li>
+               <li><a href="signup.html" class="action_btn">Sign Up</a></li>
+                <li> <a href="signup.html" class="action_btn login-btn">log in</a></li>
+
+
+       </div> 
+   </header>
+
+
+    
+
+    <!-- <script src="./js/nav.js"></script> -->
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+const toggleBtnIcon = document.querySelector('.toggle_btn i')
+const dropDownMenu = document.querySelector('.dropdown_menu')
+
+toggleBtn.onclick = function() {
+    dropDownMenu.classList.toggle('open')
+    const isOpen = dropDownMenu.classList.contains('open')
+
+    toggleBtnIcon.classList = isOpen
+      ? 'fa-solid fa-xmark'
+      : 'fa-solid fa-bars'
+    
+}
+
+
+    </script>
+</body>
+</html>

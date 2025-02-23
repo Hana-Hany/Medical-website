@@ -1,0 +1,111 @@
+body {
+  background-color: #C8C9DE;
+  height: 100vh; }
+
+.contact-form .contact-heading h3 {
+  /* font-family: roboto; */
+  line-height: 24px;
+  font-size: 24px;
+  font-weight: 600; }
+.contact-form .seciton-breif {
+  /* border: 1px solid grey;  */
+  border: none;
+}
+  .contact-form .seciton-breif p {
+    font-size: 16px;
+    /* font-family: roboto; */
+    font-weight: 500;
+    line-height: 24px; }
+.contact-form .inputs-section p {
+  font-size: 16px;
+  /* font-family: roboto; */
+  font-weight: 600;
+  line-height: 24px; }
+.contact-form .inputs-section textarea {
+  resize: none; }
+.contact-form .inputs-section .input-above-word::after {
+  content: attr(value);
+  background-color: white;
+  position: absolute;
+  left: 22px;
+  top: -13px; }
+.contact-form .question-nature-button button {
+  width: 90%; }
+
+.form-control{
+  border: none;
+  /* border: 1px solid #000; */
+  padding-top: 1rem !important;
+}
+  /* ::placeholder{
+    color: black !important;
+  } */
+/*# sourceMappingURL=contact.css.map */
+.mt-5 {
+  margin-top: 3rem!important;
+  margin-bottom: 3rem;
+}
+label , .input-above-word{
+  /* color: #00000073; */
+  color: #000;
+}
+@media (max-width:281px){
+  label{
+    font-size: 18px;
+  }
+  .form-select{
+    font-size: 12px;
+  }
+  
+
+}
+
+
+
+/* .radio-buttons input[type="radio"] {
+  display: none; 
+}
+
+.radio-buttons label {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #C8C9DE;
+  cursor: pointer;
+  width: 100% !important;
+  margin-bottom: 20px;
+  border-radius: 0.375rem;
+
+    padding: 0.75rem 0.375rem ;
+    text-align: center;
+}
+.else{
+  background-color: white !important;
+  border: 1px solid #C8C9DE;
+}
+
+.radio-buttons input[type="radio"]:checked + label {
+  background-color: #2c3194c7 !important; 
+} */
+.docname{
+  color: #000;
+}
+.form-control{
+  text-align: center;
+  height: auto !important;
+}
+.radio-buttons{
+  text-align: center;
+}
+
+.color-check:checked{
+  /* background-color: #C8C9DE !important; */
+  color:#6750A4 !important;
+  /* color: #C8C9DE !important; */
+}
+.form-floating {
+  /* border-top: 1px solid #00000045; */
+  border-right: 1px solid #00000045;
+  border-radius: 10px;
+  border-left: 1px solid #00000045;
+  border-bottom: 1px solid #00000045;
+}

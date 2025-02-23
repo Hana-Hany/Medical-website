@@ -1,0 +1,154 @@
+body{
+    background-color: #C8C9DF !important;
+
+}
+
+
+a{
+    color:#4588B4;
+}
+h3 {
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 40px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.first-section {
+    /* background-image: url(images/pat\ \(2\).svg); */
+    /* background-size: 100% 100%; */
+    /* background-color: white; */
+    background-repeat: no-repeat;
+
+
+
+}
+
+.sign-in-content {
+    min-height: 30%;
+    min-width: 30%;
+    border: 3px whitesmoke solid;
+    border-radius: 5%;
+    /* background-image: url(images/pat\ \(2\).svg); */
+    background-color: white;
+
+    /* background-size: 100% 100%; */
+    /* background-color: #1F2029; */
+    /* background-repeat: no-repeat; */
+
+
+}
+
+
+/* .btn-edit, .first-label, .forget-password {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.forget-password::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 0;
+    transition: 1s all;
+} */
+
+/* 
+.radio-forget {
+    width: fit-content;
+} */
+.radio-forget{
+    display: flex;
+}
+.line-left, .line-right {
+    width: 44%;
+    height: 1PX;
+    background-color: #D5D5D5;
+
+}
+
+.form-floating{
+    position: relative;
+    height: 80px;
+}
+input{
+    position: absolute;
+    width: 100%;
+    transition: 0.1s ease;
+}
+
+.pass_input{
+    margin-top: -1rem !important;
+}
+.pass_labelline{
+    margin: 25px 0;
+}
+.forget-password{
+    color: rgba(0, 0, 0, 0.45);
+    text-align: center !important;
+}
+.register_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+.register-now{
+    color: rgba(44, 49, 148, 1);
+    /* rgba(44, 49, 148, 1) */
+}
+.btn-edit{
+    background-color: rgba(44, 49, 148, 1);
+    color: white;
+    border-radius: 100px;
+
+}
+
+.facebook , .google{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    /* margin-left: 50px; */
+    padding: 10px 60px;
+}
+.icons_reg{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+@media (max-width:335px){
+    .icons_reg{
+        flex-direction: column;
+    }
+    .first-section{
+        height: 120vh !important;
+    }
+    label{
+        font-size: small;
+    }
+      
+}
+
+
+.input-above-word::after {
+    content: attr(value);
+    background-color: white;
+    position: absolute;
+    left: 22px;
+    top: -13px; 
+}
+
+label ,.input-above-word{
+    color: #00000073;
+    /* color: #00000073; */
+}
+
+::placeholder{
+    color: #00000073 !important;
+    font-family: 'Poppins', sans-serif;
+
+}

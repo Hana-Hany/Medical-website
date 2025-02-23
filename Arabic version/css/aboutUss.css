@@ -1,0 +1,93 @@
+
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+/* .cardd { */
+    /* width: calc(100% / 2 - 30px ); */
+    /* height: 22.5em; */
+    /* color: black; */
+    /* background: #ffffff; */
+    /* transition: 1s ease-in-out; */
+    /* clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px); */
+    /* border-top-right-radius: 20px; */
+    /* border-bottom-left-radius: 20px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+  /* } */
+
+   .cardd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: calc(100% / 3 - 120px );
+    background: #fff;
+    padding: 15px 14px;
+    border-radius: 16px;
+    height: 22.5em;
+    /* box-shadow: 3px 3px 10px #11a8ab; */
+    background: #ffffff;
+
+  }
+  
+  .cardd span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+    color: black;
+  }
+  
+  .cardd .info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.72em;
+    margin: 1em;
+    color: black;
+  }
+  
+  .cardd img {
+    width: 13.8em;
+    height: 12.8em;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+  }
+  
+  .cardd .share {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    color: black;
+  }
+  
+  /* .aboutusSectionCard{
+    display: flex;
+    justify-content: space-around;
+  } */
+  .aboutusSectionCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    margin-bottom: 26px;
+  }

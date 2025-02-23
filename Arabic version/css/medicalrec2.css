@@ -1,0 +1,93 @@
+body {
+  background-color: #C8C9DE;
+  height: 100vh; }
+
+.contact-form .contact-heading h3 {
+  /* font-family: roboto; */
+  line-height: 24px;
+  font-size: 24px;
+  font-weight: 600; }
+.contact-form .seciton-breif {
+  border: 1px solid grey; 
+}
+  .contact-form .seciton-breif p {
+    font-size: 16px;
+    /* font-family: roboto; */
+    font-weight: 500;
+    line-height: 24px; }
+.contact-form .inputs-section p {
+  font-size: 16px;
+  /* font-family: roboto; */
+  font-weight: 600;
+  line-height: 24px; }
+.contact-form .inputs-section textarea {
+  resize: none; }
+.contact-form .inputs-section .input-above-word::after {
+  content: attr(value);
+  background-color: white;
+  position: absolute;
+  /* left: 22px; */
+  top: -13px; }
+.contact-form .question-nature-button button {
+  width: 90%; }
+
+.form-control{
+  border: 1px solid #000;
+  padding-top: 1rem !important;
+}
+  /* ::placeholder{
+    color: black !important;
+  } */
+/*# sourceMappingURL=contact.css.map */
+.mt-5 {
+  margin-top: 3rem!important;
+  margin-bottom: 3rem;
+}
+label , .input-above-word{
+  /* color: #00000073; */
+  color: #000;
+}
+@media (max-width:281px){
+  label{
+    font-size: small;
+  }
+  .form-select{
+    font-size: 12px;
+  }
+  
+
+}
+
+.btn-myself , .btn-man{
+  /* border: 1px solid black; */
+  background-color: #C8C9DE;
+}
+.btn-myself:hover , .btn-man:hover{
+  background-color: #C8C9DE;
+
+}
+
+.btn-outline-secondary{
+  color:#1D192B;
+}
+.btn-outline-secondary:hover{
+  background-color: white;
+  border: 2px solid #C8C9DE;
+  color: #1D192B;
+
+}
+
+.btn-submit{
+  background-color: #2C3194;
+  color: white;
+}
+
+.docname{
+  color: #000;
+}
+@media(max-width:300px){
+  .img-text{
+    flex-direction: column;
+    align-items: center;
+  }
+}
